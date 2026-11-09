@@ -1,0 +1,68 @@
+# ==============================================================================
+# Gitignore general para el proyecto SISIFO
+# ==============================================================================
+
+# Credenciales y Secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+key.properties
+google-services.json
+GoogleService-Info.plist
+
+# Python / Agent Server
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+app/build/
+build/
+app.*.symbols
+app.*.map.json
+/coverage/
+.widget_preview/
+
+# Android & Gradle
+.gradle/
+**/android/.gradle/
+**/android/.kotlin/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/captures/
+**/android/.cxx/
+**/android/build/
+GeneratedPluginRegistrant.java
+
+# IDEs & Editores
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.tmp
+*.TMP
+*~
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+AVISOS DE DERECHOS DE AUTOR, MARCAS Y ATRIBUCIONES
+=====================================================
+
+1. Cuestionario PHQ-9 (Patient Health Questionnaire)
+---------------------------------------------------
+El PHQ-9 fue desarrollado por los Dres. Robert L. Spitzer, Janet B.W. Williams,
+Kurt Kroenke y colegas, con una beca educativa de Pfizer Inc.
+Pfizer Inc. es el titular de los derechos de autor del PHQ-9.
+Se utiliza y reproduce sin costo para fines clínicos y de investigación médica con la debida atribución.
+Referencia bibliográfica:
+Kroenke K, Spitzer RL, Williams JBW. The PHQ-9: Validity of a Brief Depression Severity Measure.
+Journal of General Internal Medicine. 2001;16(9):606-613.
+
+2. Marco Regulatorio Mexicano
+------------------------------
+- NOM-004-SSA3-2012: Del expediente clínico.
+- NOM-024-SSA3-2012: Sistemas de información de registro electrónico para la salud.
+- Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).
+- Criterios de la Comisión Federal para la Protección contra Riesgos Sanitarios (COFEPRIS)
+  sobre Software como Dispositivo Médico (SaMD) de apoyo a la decisión clínica.
+
+3. Dependencias de Código Abierto
+----------------------------------
+- Flutter SDK (BSD 3-Clause)
+- Dart SDK (BSD 3-Clause)
+- sqflite_sqlcipher (MIT / OpenSSL)
+- mongo_dart (MIT)
+- FastAPI (MIT)
+- Pydantic (MIT)
+- Uvicorn (BSD 3-Clause)
+- Pillow (HPND License)

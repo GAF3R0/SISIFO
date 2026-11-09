@@ -1,0 +1,72 @@
+name: sisifo
+description: Herramienta clínica de evaluación de riesgo de depresión mediante PHQ-9 y análisis facial con IA.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navegación
+  go_router: ^14.0.0
+
+  # Cámara
+  camera: ^0.11.0
+
+  # HTTP — comunicación con servidor
+  http: ^1.2.0
+
+  # Base de datos local cifrada (SQLCipher)
+  sqflite_sqlcipher: ^3.4.1
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+  # MongoDB Driver directo para Atlas
+  mongo_dart: ^0.10.1
+
+  # Generador de UUIDs
+  uuid: ^4.3.3
+
+  # Criptografía y Hash SHA-256
+  crypto: ^3.0.3
+
+  # Generación de reportes PDF
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  # Preferencias persistentes (sesión del psicólogo)
+  shared_preferences: ^2.2.0
+
+  # Manejo de estado
+  provider: ^6.1.0
+
+  # Procesamiento de imágenes
+  image: ^4.1.0
+
+  # Animaciones
+  lottie: ^3.1.0
+
+  # Internacionalización
+  intl: ^0.19.0
+
+  # Rutas de archivos del sistema
+  path_provider: ^2.1.0
+
+  # Firebase Auth
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
